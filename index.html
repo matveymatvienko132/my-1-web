@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя веб-сторінка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ласкаво просим на тестік!</h1>
+
+        <p class="highlight special-text">
+            Тут є дві кнопки і фоточка котика.
+        </p>
+
+        <div class="button-group">
+            <button onclick="showMessage()">Жми сюди</button>
+            <button onclick="animateElement(this)">Жми і буде тобі анімація</button>
+        </div>
+
+        <div id="message"></div>
+
+        <div class="image-preview">
+            <img src="cat.jpg" width=400 alt="Приклад" class="uploaded-image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
